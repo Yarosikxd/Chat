@@ -27,7 +27,7 @@ namespace Application.Services
         public async Task<Chat> CreateChatAsync(Chat chat)
         {
             chat.Id = Guid.NewGuid();
-            chat.CreatedByUserId = Guid.NewGuid(); 
+            chat.CreatedByUserId = chat.Id;
             _context.Chats.Add(chat);
             await _context.SaveChangesAsync();
             return chat;
@@ -40,8 +40,15 @@ namespace Application.Services
             {
                 return false;
             }
-
+           
             _context.Chats.Remove(chat);
+
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+            }
+
             await _context.SaveChangesAsync();
             return true;
         }

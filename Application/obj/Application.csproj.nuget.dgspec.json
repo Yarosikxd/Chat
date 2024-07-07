@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Chat\\Application\\Application.csproj": {}
+    "D:\\Projects\\Chat\\Chat\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Chat\\Application\\Application.csproj": {
+    "D:\\Projects\\Chat\\Chat\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Chat\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Projects\\Chat\\Chat\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Projects\\Chat\\Application\\Application.csproj",
+        "projectPath": "D:\\Projects\\Chat\\Chat\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Yarosik\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Chat\\Application\\obj\\",
+        "outputPath": "D:\\Projects\\Chat\\Chat\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\Chat\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projects\\Chat\\Domain\\Domain.csproj"
+              "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Projects\\Chat\\Domain\\Domain.csproj": {
+    "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Chat\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projects\\Chat\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Yarosik\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Chat\\Domain\\obj\\",
+        "outputPath": "D:\\Projects\\Chat\\Chat\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

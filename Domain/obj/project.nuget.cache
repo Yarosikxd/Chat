@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lrttbmhuUyAUM4bpmhpP17Gp1Ko0Nav+nTyFn5fepdZHn01kzZI/3Wiizn2vG9I+Ihc81fRPdviw3p+d1tbxbg==",
+  "dgSpecHash": "OlgX2+e+2A5LZy3QA+bcBV0oIIfcgLSCFTV2F0ZcarkGul8O3INQ/7+rsfp7QHZrLPxx3M15WPl7HRh+X3eFSA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Chat\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yarosik\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Yarosik\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

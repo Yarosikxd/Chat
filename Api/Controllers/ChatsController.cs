@@ -51,7 +51,7 @@ namespace Api.Controllers
         public async Task<ActionResult<Chat>> CreateChat(Chat chat)
         {
             var createdChat = await _chatService.CreateChatAsync(chat);
-            return CreatedAtAction(nameof(GetChat), new { id = createdChat.Id }, createdChat);
+            return chat;
         }
 
         [HttpDelete("DeleteChat/{id}")]

@@ -8790,11 +8790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Chat\\ChatTests\\ChatTests.csproj",
+      "projectUniqueName": "D:\\Projects\\Chat\\Chat\\ChatTests\\ChatTests.csproj",
       "projectName": "ChatTests",
-      "projectPath": "D:\\Projects\\Chat\\ChatTests\\ChatTests.csproj",
+      "projectPath": "D:\\Projects\\Chat\\Chat\\ChatTests\\ChatTests.csproj",
       "packagesPath": "C:\\Users\\Yarosik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Chat\\ChatTests\\obj\\",
+      "outputPath": "D:\\Projects\\Chat\\Chat\\ChatTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8816,11 +8816,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Chat\\Api\\Api.csproj": {
-              "projectPath": "D:\\Projects\\Chat\\Api\\Api.csproj"
+            "D:\\Projects\\Chat\\Chat\\Api\\Api.csproj": {
+              "projectPath": "D:\\Projects\\Chat\\Chat\\Api\\Api.csproj"
             },
-            "D:\\Projects\\Chat\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projects\\Chat\\Domain\\Domain.csproj"
+            "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projects\\Chat\\Chat\\Domain\\Domain.csproj"
             }
           }
         }
