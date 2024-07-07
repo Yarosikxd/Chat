@@ -29,15 +29,14 @@ namespace ChatTests
                     .ReturnsAsync((Chat chat) =>
                     {
                         chat.Id = Guid.NewGuid();
-                        chat.CreatedByUserId = Guid.NewGuid(); // Set a mock user ID
+                        chat.CreatedByUserId = Guid.NewGuid(); 
                         return chat;
                     });
 
                 mockChatService.Setup(s => s.DeleteChatAsync(It.IsAny<Guid>(), It.IsAny<Guid>()))
                     .ReturnsAsync((Guid chatId, Guid userId) =>
                     {
-                        // Simulate deletion based on some mock condition
-                        return chatId == Guid.NewGuid(); // Return true if deletion succeeds
+                        return chatId == Guid.NewGuid(); 
                     });
 
                 // Initialize controller with mock services
@@ -48,7 +47,7 @@ namespace ChatTests
                 var createResult = await controller.CreateChat(chat);
 
                 // Assert: Check creation result
-                var result = await controller.GetAllChats(); // Corrected method call
+                var result = await controller.GetAllChats(); 
                 var chats = Assert.IsType<List<Chat>>(result.Value);
                 Assert.Single(chats);
 
@@ -57,7 +56,7 @@ namespace ChatTests
                 Guid chatId = createdChat.Id;
 
                 // Act: Delete the chat
-                var deleteResult = await controller.DeleteChat(chatId, Guid.NewGuid()); // Provide a mock user ID
+                var deleteResult = await controller.DeleteChat(chatId, Guid.NewGuid()); 
 
                 // Assert: Check deletion result
                 Assert.IsType<NoContentResult>(deleteResult);

@@ -19,12 +19,12 @@ namespace Domain.Configurations
             builder.HasOne(m => m.User)
                 .WithMany()
                 .HasForeignKey(m => m.UserId)
-                .OnDelete(DeleteBehavior.Restrict); // Уникнення каскадного видалення
+                .OnDelete(DeleteBehavior.Restrict); 
 
             builder.HasOne(m => m.Chat)
                 .WithMany()
                 .HasForeignKey(m => m.ChatId)
-                .OnDelete(DeleteBehavior.Cascade); // Дозволяємо каскадне видалення для повідомлень у чаті
+                .OnDelete(DeleteBehavior.Cascade); 
         }
     }
 }

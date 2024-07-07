@@ -16,7 +16,7 @@ namespace Domain.Configurations
             builder.HasOne(c => c.CreatedByUser)
                 .WithMany()
                 .HasForeignKey(c => c.CreatedByUserId)
-                .OnDelete(DeleteBehavior.Restrict); // Уникнення каскадного видалення
+                .OnDelete(DeleteBehavior.Restrict); 
         }
     }
 }
